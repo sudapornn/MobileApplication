@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Successorder">
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ที่อยู่การจัดส่งของคุณ"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="123dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:srcCompat="@drawable/people" />
+
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="135dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="88dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:srcCompat="@drawable/sofa" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="ยืนยันสั่งซื้อสินค้า"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewList1"
+        android:layout_width="257dp"
+        android:layout_height="124dp"
+        android:layout_marginTop="296dp"
+        android:text="SOFA\nโซฟาผ้าสีเทา รุ่น Comfort Plus\nวัสดุผ้ากำมะหยี่, โครงไม้เนื้อแข็ง\nขนาด 180 x 85 x 75 ซม. รองรับ 3 ที่นั่ง\nราคา 8,900 บาท, รับประกัน 1 ปี"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewList2"
+        android:layout_width="263dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="28dp"
+        android:text="นางสาวสุดาพร สงวนดี\nอยู่การจัดส่งของคุณ บ้านเลขที่ 123/45\nหมู่บ้านสุขสบาย\nถนนพระราม 9, แขวงบางกะปิ\nเขตห้วยขวาง, กรุงเทพมหานคร 10310 ประเทศไทย"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+
+    <TextView
+        android:id="@+id/textViewList3"
+        android:layout_width="255dp"
+        android:layout_height="122dp"
+        android:layout_marginTop="416dp"
+        android:text="PILLOW\nขผ้าห่มขนแกะ รุ่น Warm Cozy\nวัสดุขนแกะเทียม, เนื้อนุ่ม หนา 2 ชั้น\nขนาด 150 x 200 ซม. ให้ความอบอุ่นสูง\nราคา 1,500 บาท, ซักเครื่องได้"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="139dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:srcCompat="@drawable/blanket" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="188dp"
+        android:text="การซื้อของคุณ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="346dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="568dp"
+        android:text="รวมสิ้นค้าทั้งหมด   2   ชิ้น\n ราคา     10,400 บาท"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

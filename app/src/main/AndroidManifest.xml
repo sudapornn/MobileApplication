@@ -15,6 +15,12 @@
         android:theme="@style/Theme.MyMobileApplication"
         tools:targetApi="31">
         <activity
+            android:name=".Vedeo"
+            android:exported="false" />
+        <activity
+            android:name=".Successorder"
+            android:exported="true" />
+        <activity
             android:name=".Chat"
             android:exported="false" />
         <activity
